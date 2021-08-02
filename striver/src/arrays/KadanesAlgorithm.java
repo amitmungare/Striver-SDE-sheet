@@ -2,7 +2,7 @@ package arrays;
 
 public class KadanesAlgorithm {
 	
-	 public int maxSubArray(int[] arr) {
+	 public static int maxSubArray(int[] arr) {
 	        
 	        int sum=0;
 	        int max=arr[0];
@@ -16,7 +16,9 @@ public class KadanesAlgorithm {
 	    }
 
 	public static void main(String[] args) {
-		
+		int arr[] = {1,2,2,3,4,3,2,2};
+		int c = maxSubArray(arr);
+		System.out.println(c);
 	}
 
 }
