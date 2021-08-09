@@ -2,7 +2,7 @@ package arrays;
 
 public class MajorityElement1 {
 	
-public int majorityElement(int[] arr) {
+public static int majorityElement(int[] arr) {
         
         int count = 0;
         int ele =-1;
@@ -24,8 +24,9 @@ public int majorityElement(int[] arr) {
     }
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int arr[] = {1,2,2,3,4,3,2,2};
+		int c = majorityElement(arr);
+		System.out.println(c);
 	}
 
 }
